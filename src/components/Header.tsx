@@ -41,14 +41,24 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center group">
+          <Link href="/" className="flex items-center group relative">
             <Image
               src="/logoparasite/exta%20logo.webp"
               alt="Exata Regularização"
               width={160}
               height={42}
-              className={`h-8 md:h-9 w-auto object-contain transition-all duration-300 ${
-                isTransparent ? "" : "brightness-0"
+              className={`h-8 md:h-9 w-auto object-contain transition-opacity duration-300 ${
+                isTransparent ? "opacity-100" : "opacity-0"
+              }`}
+              priority
+            />
+            <Image
+              src="/logoparasite/exta%20logo2.webp"
+              alt="Exata Regularização"
+              width={160}
+              height={42}
+              className={`h-8 md:h-9 w-auto object-contain transition-opacity duration-300 absolute left-0 top-0 ${
+                isTransparent ? "opacity-0 pointer-events-none" : "opacity-100"
               }`}
               priority
             />
