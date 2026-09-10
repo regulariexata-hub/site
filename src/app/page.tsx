@@ -379,41 +379,32 @@ export default function Home() {
           
           {/* Grid Minimalista com Divisores Elegantes */}
           <div className="reveal bg-white border border-subtle rounded-3xl p-8 md:p-12 shadow-sm">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 lg:divide-x lg:divide-neutral-200/70">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 md:divide-x md:divide-neutral-200/70">
               
               {/* 01 */}
-              <div className="lg:px-8 first:lg:pl-0 space-y-2">
-                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">10+</p>
+              <div className="md:px-8 first:md:pl-0 space-y-2">
+                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">05</p>
                 <p className="text-xs font-semibold uppercase tracking-wider text-neutral-800">Anos de Experiência</p>
                 <p className="text-xs text-neutral-500 font-light leading-relaxed">
-                  Consolidação em processos imobiliários e patrimoniais.
+                  Trajetória consolidada em processos de regularização de imóveis rurais e urbanos.
                 </p>
               </div>
 
               {/* 02 */}
-              <div className="lg:px-8 space-y-2">
-                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">40+</p>
+              <div className="md:px-8 space-y-2">
+                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">30</p>
                 <p className="text-xs font-semibold uppercase tracking-wider text-neutral-800">Municípios Atendidos</p>
                 <p className="text-xs text-neutral-500 font-light leading-relaxed">
-                  Presença técnica ativa no Paraná e regiões vizinhas.
+                  Presença técnica ativa no Paraná e em Santa Catarina.
                 </p>
               </div>
 
               {/* 03 */}
-              <div className="lg:px-8 space-y-2">
-                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">Milhares</p>
-                <p className="text-xs font-semibold uppercase tracking-wider text-neutral-800">Hectares Medidos</p>
-                <p className="text-xs text-neutral-500 font-light leading-relaxed">
-                  Topografia de alta acurácia e georreferenciamento.
-                </p>
-              </div>
-
-              {/* 04 */}
-              <div className="lg:px-8 last:lg:pr-0 space-y-2">
-                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">CREA</p>
+              <div className="md:px-8 last:md:pr-0 space-y-2">
+                <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary tracking-tight leading-tight">Equipe Especializada</p>
                 <p className="text-xs font-semibold uppercase tracking-wider text-neutral-800">Responsabilidade Técnica</p>
                 <p className="text-xs text-neutral-500 font-light leading-relaxed">
-                  Todos os projetos respaldados com ART e fé pública.
+                  Profissionais especialistas em regularização, registrados no CREA, CFT e credenciados no INCRA.
                 </p>
               </div>
 
