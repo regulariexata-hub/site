@@ -37,7 +37,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm font-light text-white/80">
               <li><a href="https://wa.me/5545991344907?text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20regulariza%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">(45) 99134-4907</a></li>
               <li><a href="https://wa.me/5545991344907?text=Ol%C3%A1!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20regulariza%C3%A7%C3%A3o." target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">(45) 99114-5155</a></li>
-              <li><a href="mailto:atendimento@exataregularizacao.com.br" className="hover:text-white transition-colors">E-mail Comercial</a></li>
+              <li><a href="mailto:administrativo@exataregularizacao.com.br" className="hover:text-white transition-colors">E-mail Comercial</a></li>
             </ul>
           </div>
 
